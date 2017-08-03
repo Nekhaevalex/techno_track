@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
                     strings++;
                 }
             }
+            fclose(toCount);
             fprintf(stdout, "%d strings in file\n", strings);
         }
     }
